@@ -1,0 +1,25 @@
+Algoritmo EjercicioTres
+	
+	Definir dividendo, divisor, cont Como Real
+	Escribir "Ingrese dos números"
+	Leer  dividendo, divisor
+	
+	respuesta(dividendo, divisor, cont)
+	
+FinAlgoritmo
+
+SubProceso respuesta(dividendo Por Referencia, divisor Por Referencia, cont Por Referencia)
+	cont = 0
+	Hacer
+		cont = cont+1
+		dividendo = dividendo - divisor
+		
+		
+		//Según el ejercicio 	se deben realizar tantas cantidad de restas hasta que el dividendo sea
+		//mayor que el divisor
+	Mientras Que dividendo>divisor
+	
+	Escribir "El residuo es: ", dividendo, ". Y el cociente es: ", cont
+	
+FinSubProceso
+	
